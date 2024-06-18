@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BjPs3DBQLNjuM8oHh5h7o3Lxr/6VvgcN3L6peanIT9Q=",
+  "Source": "AwesomeShop.Service.Orders.Api",
+  "BasePath": "_content/AwesomeShop.Service.Orders.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

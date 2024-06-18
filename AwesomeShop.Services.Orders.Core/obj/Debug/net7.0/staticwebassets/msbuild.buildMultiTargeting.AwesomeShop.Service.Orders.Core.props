@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AwesomeShop.Service.Orders.Core.props" />
+</Project>

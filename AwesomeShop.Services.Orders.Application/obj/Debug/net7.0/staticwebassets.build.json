@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "23mKUSSzDS1YSirLoh3oiQzYeDkAB/JA4mywJ+K0N4U=",
+  "Source": "AwesomeShop.Service.Orders.Application",
+  "BasePath": "_content/AwesomeShop.Service.Orders.Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
