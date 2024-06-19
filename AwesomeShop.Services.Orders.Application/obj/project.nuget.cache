@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fdB3o+lpWGg6HaebB16choNPnsypgnDuO3eSCaYCgZHs26uCO1uSWi1aUEjVLzOYJHV1cFprg/bsGnNwwQjl4g==",
+  "dgSpecHash": "njD3xBi57tLlws6ApYgRmSnYbpLSNXr4xgmrIo88b/bxia7qmwZWpzRF4nEpI0iBYbCdgwEeVgf40zxBzp5rZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Application\\AwesomeShop.Service.Orders.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\thiag\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\thiag\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\thiag\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\thiag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

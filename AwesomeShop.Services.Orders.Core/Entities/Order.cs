@@ -6,7 +6,7 @@ namespace AwesomeShop.Services.Orders.Core.Entities
 {
     public class Order : AggregateRoot
     {
-        public Order(Customer customer, DeliveryAddress deliveryAddress, PaymentAddress paymentAddress, PaymentInfo paymentInfo, List<OrderItem> items, DateTime myProperty)
+        public Order(Customer customer, DeliveryAddress deliveryAddress, PaymentAddress paymentAddress, PaymentInfo paymentInfo, List<OrderItem> items)
         {
             Id = Guid.NewGuid();
             TotalPrice = items.Sum(i => i.Quantity * i.Price);
@@ -15,7 +15,6 @@ namespace AwesomeShop.Services.Orders.Core.Entities
             PaymentAddress = paymentAddress;
             PaymentInfo = paymentInfo;
             Items = items;
-            MyProperty = myProperty;
 
             CreatedAt = DateTime.Now;
 
@@ -28,7 +27,6 @@ namespace AwesomeShop.Services.Orders.Core.Entities
         public PaymentAddress PaymentAddress { get; private set; }
         public PaymentInfo PaymentInfo { get; private set; }
         public List<OrderItem> Items { get; private set; }
-        public DateTime MyProperty { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public OrderStatus Status { get; private set; }
         public void SetAsCompleted(){

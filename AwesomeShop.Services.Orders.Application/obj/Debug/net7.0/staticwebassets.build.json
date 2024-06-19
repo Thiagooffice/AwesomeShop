@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "23mKUSSzDS1YSirLoh3oiQzYeDkAB/JA4mywJ+K0N4U=",
+  "Hash": "gw5pzKKju8sisRRazHCGLMmat3WvVfWxJtk+o4uGIO4=",
   "Source": "AwesomeShop.Service.Orders.Application",
   "BasePath": "_content/AwesomeShop.Service.Orders.Application",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Service.Orders.Core.csproj",
+      "Version": 2,
+      "Source": "AwesomeShop.Service.Orders.Core",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

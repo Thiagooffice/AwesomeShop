@@ -31,3 +31,11 @@ C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\Awesom
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\obj\Debug\net7.0\AwesomeShop.Service.Orders.Application.pdb
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\obj\Debug\net7.0\AwesomeShop.Service.Orders.Application.genruntimeconfig.cache
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\obj\Debug\net7.0\ref\AwesomeShop.Service.Orders.Application.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\AwesomeShop.Service.Orders.Core.deps.json
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\AwesomeShop.Service.Orders.Core.runtimeconfig.json
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\AwesomeShop.Service.Orders.Core.exe
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\MediatR.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\AwesomeShop.Service.Orders.Core.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Application\bin\Debug\net7.0\AwesomeShop.Service.Orders.Core.pdb
