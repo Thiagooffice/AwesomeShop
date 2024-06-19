@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gw5pzKKju8sisRRazHCGLMmat3WvVfWxJtk+o4uGIO4=",
+  "Hash": "PJVOtv+/GSv7/bzUYqiKs6whAT1r32QvUi/xI7G4Tcg=",
   "Source": "AwesomeShop.Service.Orders.Application",
   "BasePath": "_content/AwesomeShop.Service.Orders.Application",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "AwesomeShop.Service.Orders.Core",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AwesomeShop.Services.Orders.Application\AwesomeShop.Service.Orders.Application.csproj" />
+    <ProjectReference Include="..\AwesomeShop.Services.Orders.Infrastructure\AwesomeShop.Service.Orders.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
