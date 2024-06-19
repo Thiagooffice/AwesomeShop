@@ -1,11 +1,34 @@
 {
   "Version": 1,
-  "Hash": "BjPs3DBQLNjuM8oHh5h7o3Lxr/6VvgcN3L6peanIT9Q=",
+  "Hash": "KlZPknVnmJW1NrA5dgSgYVxALcIDBgldGGsB8khO2jk=",
   "Source": "AwesomeShop.Service.Orders.Api",
   "BasePath": "_content/AwesomeShop.Service.Orders.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Application\\AwesomeShop.Service.Orders.Application.csproj",
+      "Version": 2,
+      "Source": "AwesomeShop.Service.Orders.Application",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    },
+    {
+      "Identity": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Service.Orders.Core.csproj",
+      "Version": 2,
+      "Source": "AwesomeShop.Service.Orders.Core",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
