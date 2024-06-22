@@ -117,6 +117,9 @@
             "projectReferences": {
               "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Service.Orders.Core.csproj": {
                 "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Core\\AwesomeShop.Service.Orders.Core.csproj"
+              },
+              "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Infrastructure\\AwesomeShop.Service.Orders.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\thiag\\OneDrive\\Área de Trabalho\\dotnet-expert-luis-dev\\projects\\AwesomeShop\\AwesomeShop\\AwesomeShop.Services.Orders.Infrastructure\\AwesomeShop.Service.Orders.Infrastructure.csproj"
               }
             }
           }
@@ -294,6 +297,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.26.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
