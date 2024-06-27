@@ -13,7 +13,7 @@ namespace AwesomeShop.Services.Orders.Application.Queries.Handlers
         }
         public async Task<OrderViewModel> Handle(GetOrderbyId request, CancellationToken cancellationToken)
         {
-            var order = await _orderRepository.GetByAsync(request.Id);
+            var order = await _orderRepository.GetByIdAsync(request.Id);
 
             var orderViewModel = OrderViewModel.FromEntity(order);
 

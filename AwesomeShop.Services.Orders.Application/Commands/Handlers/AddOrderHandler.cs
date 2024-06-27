@@ -22,6 +22,7 @@ namespace AwesomeShop.Services.Orders.Application.Commands.Handlers
             foreach(var @event in order.Events){
                 //ordercreated = oerder-created
                 var routingKey = @event.GetType().Name.ToDashCase();
+                
                 _messageBus.Publish(@event, routingKey, "order-service");
             }
 

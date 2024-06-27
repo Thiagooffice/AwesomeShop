@@ -24,6 +24,8 @@ namespace AwesomeShop.Services.Orders.Infrastructure.MessageBus
             var payload = JsonSerializer.Serialize(message);
             var body = Encoding.UTF8.GetBytes(payload);
 
+            channel.ExchangeDeclare(exchange, "topic", true);
+
             channel.BasicPublish(exchange, routingKey, null, body);
         }
     }

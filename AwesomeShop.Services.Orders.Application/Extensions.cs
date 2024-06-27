@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AwesomeShop.Services.Orders.Application.Commands;
+using AwesomeShop.Services.Orders.Application.Subscribers;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -15,6 +16,12 @@ namespace AwesomeShop.Services.Orders.Application
             services.AddMediatR(typeof(AddOrder));
             return services;
         }
+
+    public static IServiceCollection AddSubscribers(this IServiceCollection services){
+        services.AddHostedService<PaymentAcceptedSubscriber>();
+
+        return services;
+    }
 
         public static string ToDashCase(this string text){
             if(text == null){

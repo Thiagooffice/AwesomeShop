@@ -20,7 +20,7 @@ namespace AwesomeShop.Services.Orders.Infrastructure.Repositories
             await _collection.InsertOneAsync(order);
         }
 
-        public async Task<Order> GetByAsync(Guid id)
+        public async Task<Order> GetByIdAsync(Guid id)
         {
            return await _collection.Find(c => c.Id == id).SingleOrDefaultAsync();
         }

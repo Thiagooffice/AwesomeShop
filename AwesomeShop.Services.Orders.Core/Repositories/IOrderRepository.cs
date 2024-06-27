@@ -4,7 +4,7 @@ namespace AwesomeShop.Services.Orders.Core.Repositories
 {
     public interface IOrderRepository
     {
-        Task<Order> GetByAsync(Guid id);
+        Task<Order> GetByIdAsync(Guid id);
         Task AddAsync(Order order);
         Task UpdateAsync(Order order);
     }
