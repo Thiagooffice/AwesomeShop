@@ -1,5 +1,6 @@
 using AwesomeShop.Services.Orders.Application;
 using AwesomeShop.Services.Orders.Infrastructure;
+using Consul;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddHttpClient();
-builder.Services.AddMessageBus().AddMongo().AddRepositories().AddHandlers().AddSubscribers();
+builder.Services
+        .AddMessageBus()
+        .AddMongo()
+        .AddRepositories()
+        .AddHandlers()
+        .AddSubscribers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -23,7 +30,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseConsul();
 
 app.MapControllers();
 
