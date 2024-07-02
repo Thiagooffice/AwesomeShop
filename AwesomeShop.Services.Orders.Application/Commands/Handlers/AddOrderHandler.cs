@@ -1,6 +1,9 @@
+using AwesomeShop.Services.Orders.Application.Dtos.IntegrationDtos;
 using AwesomeShop.Services.Orders.Core.Repositories;
 using AwesomeShop.Services.Orders.Infrastructure.MessageBus;
+using AwesomeShop.Services.Orders.Infrastructure.ServiceDiscovery;
 using MediatR;
+using Newtonsoft.Json;
 
 namespace AwesomeShop.Services.Orders.Application.Commands.Handlers
 {
@@ -8,14 +11,27 @@ namespace AwesomeShop.Services.Orders.Application.Commands.Handlers
     {
         private readonly IOrderRepository _orderRepository;
         private readonly IMessageBusClient _messageBus;
-        public AddOrderHandler(IOrderRepository orderRepository, IMessageBusClient messageClient)
+        private readonly IServiceDiscoveryService _serviceDiscovery;
+        public AddOrderHandler(IOrderRepository orderRepository, IMessageBusClient messageClient, IServiceDiscoveryService serviceDiscovery)
         {
             _orderRepository = orderRepository;
             _messageBus = messageClient;
+            _serviceDiscovery = serviceDiscovery;
         }
         public async Task<Guid> Handle(AddOrder request, CancellationToken cancellationToken)
         {
             var order = request.ToEntity();
+
+            var customerUrl = await _serviceDiscovery.GetServiceUri("CustomerServices", $"/api/customers/{order.Customer.Id}");
+
+            var httpClient = new HttpClient();
+
+            var result = await httpClient.GetAsync(customerUrl);
+            var stringResult =  await result.Content.ReadAsStringAsync();
+
+            var customerDto = JsonConvert.DeserializeObject<GetCustomerByIdDto>(stringResult);
+
+            Console.WriteLine(customerDto.FullName);
             
             await _orderRepository.AddAsync(order);
 

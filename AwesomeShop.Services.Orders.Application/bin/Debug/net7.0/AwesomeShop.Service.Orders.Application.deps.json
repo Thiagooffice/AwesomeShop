@@ -37,6 +37,18 @@
           }
         }
       },
+      "Consul/1.7.14.3": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.7.14.3",
+            "fileVersion": "1.7.14.3"
+          }
+        }
+      },
       "DnsClient/1.6.1": {
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0"
@@ -90,6 +102,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {},
       "Microsoft.Extensions.Logging.Abstractions/2.0.0": {},
@@ -283,6 +296,7 @@
       "AwesomeShop.Service.Orders.Infrastructure/1.0.0": {
         "dependencies": {
           "AwesomeShop.Service.Orders.Core": "1.0.0",
+          "Consul": "1.7.14.3",
           "Microsoft.AspNetCore.OpenApi": "7.0.10",
           "MongoDB.Driver": "2.26.0",
           "Newtonsoft.Json": "13.0.3",
@@ -314,6 +328,13 @@
       "sha512": "sha512-dGCVuVo0CFUKWW85W8YENO+aREf8sCBDjvGbnNvxJuNW4Ss+brEU9ltHhq2KfZze2VUNK1/wygbPG1bmbpyXEw==",
       "path": "awssdk.securitytoken/3.7.100.14",
       "hashPath": "awssdk.securitytoken.3.7.100.14.nupkg.sha512"
+    },
+    "Consul/1.7.14.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4w5fwKldVE9gnByiDbSLvsSIMWAp7vN3pGzASGup5BgFDfcpxjFrBr2wLbuyUGJW3QrHp2VuS32/blPGMPkrA==",
+      "path": "consul/1.7.14.3",
+      "hashPath": "consul.1.7.14.3.nupkg.sha512"
     },
     "DnsClient/1.6.1": {
       "type": "package",
@@ -349,6 +370,13 @@
       "sha512": "sha512-p5LiYt1mFJdS70zyHoydahohko2pLIoXiXwANRZGYYyTXcYNQpNUOt+At+lUgGgRwta28sUKVhy2W/93j0qwhA==",
       "path": "microsoft.aspnetcore.openapi/7.0.10",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
