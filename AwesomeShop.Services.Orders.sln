@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Service.Orders.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Service.Orders.Infrastructure", "AwesomeShop.Services.Orders.Infrastructure\AwesomeShop.Service.Orders.Infrastructure.csproj", "{9C29FA20-DEE7-4510-B84E-BC6C789B94B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.ApiGateway", "AwesomeShop.Services.ApiGateway\AwesomeShop.Services.ApiGateway.csproj", "{AEEE2CA2-6875-4594-9176-093A789247AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{9C29FA20-DEE7-4510-B84E-BC6C789B94B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C29FA20-DEE7-4510-B84E-BC6C789B94B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C29FA20-DEE7-4510-B84E-BC6C789B94B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEE2CA2-6875-4594-9176-093A789247AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEE2CA2-6875-4594-9176-093A789247AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEE2CA2-6875-4594-9176-093A789247AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEE2CA2-6875-4594-9176-093A789247AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

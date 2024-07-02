@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZNKI9LwVvKTAkVTaz9B1gxZ1t64qonu+4nRVJva/BVs=",
+  "Source": "AwesomeShop.Services.ApiGateway",
+  "BasePath": "_content/AwesomeShop.Services.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
