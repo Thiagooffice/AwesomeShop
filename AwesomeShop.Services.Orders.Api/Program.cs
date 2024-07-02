@@ -10,6 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddHttpClient();
 builder.Services
+        .AddRedisCache()
         .AddMessageBus()
         .AddMongo()
         .AddRepositories()

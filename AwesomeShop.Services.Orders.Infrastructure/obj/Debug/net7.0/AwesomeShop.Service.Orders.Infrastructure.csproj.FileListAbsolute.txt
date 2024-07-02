@@ -52,3 +52,11 @@ C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\Awesom
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Consul.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\thiag\OneDrive\Área de Trabalho\dotnet-expert-luis-dev\projects\AwesomeShop\AwesomeShop\AwesomeShop.Services.Orders.Infrastructure\bin\Debug\net7.0\StackExchange.Redis.dll
